@@ -1,0 +1,15 @@
+This is a sample how payloads can be formatted as data:
+All the values are dismembered with # representing an specific information
+Author: Vitor Sgobbi, 2015, GPL licensed, Brazilian Air Traffic Control Institute
+
+#101 // ID do simulador = Identification of simulation type
+#541 // ID da mensagem = Identification of message type
+#VRN2541 // Matricula da aeronave = (Aircraft Call Sign)
+#B747 // Aircraft type 
+#23.8875219822 // Hora t1 sim = Time in seconds.milliseconds
+#VN // Status de envio V = voando N= normal //classe = glDefs.py // Flying Normally
+#-919.919253652 // longitude X 
+#1300.29803507 // latitude Y // Função de conversão = ecef earth centered earth fixed 
+#291.558797836 // Proa em graus // Heading (Prow in degrees)
+#1245.03696945 // Altitude em metros (in meters)
+#72.02222216 // Velocidade = m/s (in meters per second)
